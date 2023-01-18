@@ -1,8 +1,15 @@
 package be.ephec.java.exercice.ex05;
 
 public class Person {
-    public String lastName;
-    public String firstName;
+
+    public Person(String lastName, String firstName, int yearOfBirth) {
+        this.lastName = lastName;
+        this.firstName = firstName;
+        this.yearOfBirth = yearOfBirth;
+    }
+
+    private final String lastName;
+    private final String firstName;
     public int yearOfBirth;
 
     public int age;
