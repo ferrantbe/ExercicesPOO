@@ -1,12 +1,13 @@
 package be.ephec.java.exercice.e04;
 
-import java.util.Random;
-
 public class Program {
     public static void main(String[] args) {
-        Game game = new Game();
+        Player p1 = new Player("Max");
+        Player p2 = new Player("Paul");
 
-        Player winner = game.play();
+        Game game = new Game(p1, p2, 10);
+
+        Player winner = game.playAndReturnWinner();
         System.out.println("Et le gagnant est " + winner.getFirstName());
 
     }

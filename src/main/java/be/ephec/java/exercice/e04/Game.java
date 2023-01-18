@@ -4,15 +4,17 @@ import java.util.Random;
 
 public class Game {
     Player p1, p2;
+    int maxPoints;
     Random dice = new Random();
 
-    public Game() {
-        p1 = new Player("Max");
-        p2 = new Player("Paul");
+    public Game(Player p1, Player p2, int maxPoints) {
+        this.p1 = p1;
+        this.p2 = p2;
+        this.maxPoints = maxPoints;
     }
 
-    public Player play() {
-        while (p1.getPoints() < 10 && p2.getPoints() < 10) {
+    public Player playAndReturnWinner() {
+        while (p1.getPoints() < maxPoints && p2.getPoints() < maxPoints) {
             playNextRound();
         }
 
