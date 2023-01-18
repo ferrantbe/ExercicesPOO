@@ -1,4 +1,4 @@
-package be.ephec.java.exercice.ex05;
+package be.ephec.java.exercice.e05;
 
 public class Person {
 
