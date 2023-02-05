@@ -3,9 +3,9 @@ package be.ephec.java.exercice.e04;
 import java.util.Random;
 
 public class Game {
-    Player p1, p2;
+    final Player p1, p2;
     int maxPoints;
-    Random dice = new Random();
+    final Random dice = new Random();
 
     public Game(Player p1, Player p2, int maxPoints) {
         this.p1 = p1;
