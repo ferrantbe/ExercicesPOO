@@ -30,9 +30,11 @@ public class Game {
             result1 = rollDice();
             result2 = rollDice();
         } while (result1 == result2);
-        // insérer ici l'instruction contenant l'opérateur ternaire
-        Player winner = (result1 > result2) ? p1 : p2;
-        winner.addPoint();
+        // insérer ici les instruction contenant l'opérateur ternaire
+        // première instruction détermine le gagnant
+
+        // deuxième instruction augmente le score du gagnant
+
         //
     }
 
