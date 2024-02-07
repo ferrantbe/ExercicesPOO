@@ -25,9 +25,8 @@ public class ProgrammeMatrice {
         String formatage = "%" + (tailleDePlusGrandNombre + 1) + "d";
 
         for (int[] ligne : tableau) {
-            for (int valeur : ligne) {
+            for (int valeur : ligne)
                 System.out.printf(formatage, valeur);
-            }
             System.out.println();
         }
     }

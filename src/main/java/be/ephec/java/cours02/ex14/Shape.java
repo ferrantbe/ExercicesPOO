@@ -2,7 +2,6 @@ package be.ephec.java.cours02.ex14;
 
 public abstract class Shape {
     protected Point center;
-    private double rotation;
 
     public Shape(Point center) {
         this.center = center;

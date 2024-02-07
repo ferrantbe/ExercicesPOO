@@ -12,7 +12,7 @@ public class Temperature {
     public double getValue(TemperatureUnit unit) {
         if (unit == this.unit)
             return valeur;
-        else if (unit == TemperatureUnit.CELSIUS)
+        else if (this.unit == TemperatureUnit.FAHRENHEIT)
             return farenheitToCelsius();
         else
             return celsiusToFarenheit();

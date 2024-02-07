@@ -14,9 +14,9 @@ public class Game {
     }
 
     public Player playAndReturnWinner() {
-        while (p1.getPoints() < maxPoints && p2.getPoints() < maxPoints) {
+        while (p1.getPoints() < maxPoints && p2.getPoints() < maxPoints)
             playNextRound();
-        }
+
 
         // remplacer l'instruction suivante par une instruction contenant un opérateur ternaire.
         // La méthode doit retourner le joueur qui a gagné (= celui qui a le plus de points).
