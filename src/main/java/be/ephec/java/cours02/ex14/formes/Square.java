@@ -1,4 +1,7 @@
-package be.ephec.java.cours02.ex14;
+package be.ephec.java.cours02.ex14.formes;
+
+import be.ephec.java.cours02.ex14.Point;
+import be.ephec.java.cours02.ex14.Shape;
 
 public class Square extends Shape {
     public Square(Point center) {

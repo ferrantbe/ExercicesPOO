@@ -1,8 +1,9 @@
-package be.ephec.java.cours02.ex14;
+package be.ephec.java.cours04.ex19;
 
-import be.ephec.java.cours02.ex14.formes.Circle;
-import be.ephec.java.cours02.ex14.formes.Square;
-import be.ephec.java.cours02.ex14.formes.Triangle;
+import be.ephec.java.cours04.ex19.shapes.Circle;
+import be.ephec.java.cours04.ex19.shapes.Shape;
+import be.ephec.java.cours04.ex19.shapes.Square;
+import be.ephec.java.cours04.ex19.shapes.Triangle;
 
 public class Programme {
     public static void main(String[] args) {
@@ -19,9 +20,19 @@ public class Programme {
         }
 
         System.out.println();
+        System.out.println("Transformations:");
+        shapes[0].rotate(40);
+        shapes[1].rotate(-60);
+        shapes[2].rotate(10);
+        shapes[3].translate(-5, 3);
+        shapes[4].translate(8, 2);
+        shapes[0].translate(-5, -2);
+
+        System.out.println();
         System.out.println("Effacement des formes: ");
         for (Shape shape : shapes) {
             shape.efface();
         }
+
     }
 }

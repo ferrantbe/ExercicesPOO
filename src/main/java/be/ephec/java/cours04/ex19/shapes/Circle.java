@@ -1,4 +1,6 @@
-package be.ephec.java.cours02.ex14;
+package be.ephec.java.cours04.ex19.shapes;
+
+import be.ephec.java.cours04.ex19.Point;
 
 public class Circle extends Shape {
     public Circle(Point center) {
@@ -8,12 +10,15 @@ public class Circle extends Shape {
     @Override
     public void affiche() {
         System.out.printf("Je suis un cercle centré en (%d, %d) et je m'affiche.\n", this.center.getX(), this.center.getY());
-
     }
-
     @Override
     public void efface() {
         System.out.printf("Je suis un cercle centré en (%d, %d) et je m'efface.\n", this.center.getX(), this.center.getY());
-
     }
+
+    @Override
+    public void rotate(int alpha) {
+        System.out.printf("Je suis un cercle et je tourne de %d degrés.\n", alpha);
+    }
+
 }
