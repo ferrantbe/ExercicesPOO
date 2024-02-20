@@ -1,4 +1,4 @@
-package be.ephec.java.cours04.ex20.observer;
+package be.ephec.java.cours05.ex20.observer;
 
 public class Programme {
     public static void main(String[] args) {
