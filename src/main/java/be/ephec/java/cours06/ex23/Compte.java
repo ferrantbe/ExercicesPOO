@@ -6,11 +6,11 @@ import java.util.logging.*;
 public class Compte {
     private double solde = 0;
 
-    private static Logger LOGGER = Logger.getLogger(Compte.class.getSimpleName());
+    private static Logger LOGGER = Logger.getLogger("Compte");
 
     static {
-        LOGGER.setLevel(Level.OFF);
-        // LOGGER.setLevel(Level.INFO);
+        // LOGGER.setLevel(Level.OFF);
+        LOGGER.setLevel(Level.INFO);
     }
     private String numero = "";
 
