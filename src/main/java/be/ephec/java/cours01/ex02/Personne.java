@@ -34,6 +34,6 @@ public class Personne {
 
     public void display() {
         System.out.printf("%s %s est né en %d et a %d ans.", this.nom, this.prenom,
-                this.anneDeNaissance, this.computeAge(2024));
+                this.anneDeNaissance, this.computeAge(2025));
     }
 }

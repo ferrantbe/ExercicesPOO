@@ -20,9 +20,10 @@ public class Hello {
         p.setAnneDeNaissance(sc.nextInt());
 
         p.display();
+
+
         int i = 5;
         System.out.println(i);
-
         doSomething(i, p);
 
         p.display();

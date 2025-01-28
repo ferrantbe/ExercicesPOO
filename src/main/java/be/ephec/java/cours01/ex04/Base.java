@@ -21,7 +21,7 @@ public class Base {
 
             System.out.println();
 
-            System.out.printf("En base %d, ça donne %d.", base, nombre);
+            System.out.printf("En base 10, ça donne %d.", nombre);
         }
         scanner.close();
     }
