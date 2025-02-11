@@ -5,7 +5,7 @@ public class Program {
         Player p1 = new Player("Max");
         Player p2 = new Player("Paul");
 
-        Game game = new Game(p1, p2, 10);
+        Game game = new Game(p1, p2, 5);
 
         Player winner = game.playAndReturnWinner();
         System.out.println("Et le gagnant est " + winner.getFirstName());
